@@ -1,0 +1,16 @@
+@import "../../const/color.scss";
+
+.movie__wrapper{}
+.movie__list{
+    margin: 20px 0;
+    h2 {
+        color: $font-secondary;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+.movie__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 20px;
+}
